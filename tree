@@ -1,0 +1,146 @@
+.
+├── CONTRIBUTING.md
+├── LICENSE
+├── LICENSES
+│   └── Apache-2.0.txt
+├── README.md
+├── REUSE.toml
+├── checks
+│   └── default.nix
+├── flake.lock
+├── flake.nix
+├── lib
+│   ├── gitlab-ci.nix
+│   └── rootwrap-conf.nix
+├── modules
+│   ├── compute
+│   │   ├── compute.nix
+│   │   ├── neutron.nix
+│   │   └── nova.nix
+│   ├── controller
+│   │   ├── generic.nix
+│   │   ├── glance.nix
+│   │   ├── horizon-settings.py
+│   │   ├── horizon.nix
+│   │   ├── keystone.nix
+│   │   ├── neutron.nix
+│   │   ├── nova.nix
+│   │   ├── openstack-controller.nix
+│   │   └── placement.nix
+│   ├── default.nix
+│   ├── generic
+│   │   └── controller-host-entry.nix
+│   └── testing
+│       └── default.nix
+├── packages
+│   ├── automaton.nix
+│   ├── castellan.nix
+│   ├── cinder.nix
+│   ├── cursive.nix
+│   ├── default.nix
+│   ├── django-debreach.nix
+│   ├── django-discover-runner.nix
+│   ├── django-pyscss.nix
+│   ├── doc8.nix
+│   ├── enmerkar.nix
+│   ├── etcd3gw.nix
+│   ├── flake8-logging-format.nix
+│   ├── futurist.nix
+│   ├── gabbi.nix
+│   ├── glance-store.nix
+│   ├── glance.nix
+│   ├── horizon.nix
+│   ├── jsonpath-rw-ext.nix
+│   ├── keystone.nix
+│   ├── keystoneauth1.nix
+│   ├── keystonemiddleware.nix
+│   ├── microversion-parse.nix
+│   ├── neutron-lib.nix
+│   ├── neutron.nix
+│   ├── nova.nix
+│   ├── openstack-placement.nix
+│   ├── openstacksdk.nix
+│   ├── os-brick.nix
+│   ├── os-client-config.nix
+│   ├── os-ken.nix
+│   ├── os-resource-classes.nix
+│   ├── os-traits.nix
+│   ├── os-vif.nix
+│   ├── os-win.nix
+│   ├── osc-lib.nix
+│   ├── osc-placement.nix
+│   ├── oslo-cache.nix
+│   ├── oslo-concurrency.nix
+│   ├── oslo-config.nix
+│   ├── oslo-context.nix
+│   ├── oslo-db.nix
+│   ├── oslo-i18n.nix
+│   ├── oslo-limit.nix
+│   ├── oslo-log.nix
+│   ├── oslo-messaging.nix
+│   ├── oslo-metrics.nix
+│   ├── oslo-middleware.nix
+│   ├── oslo-policy.nix
+│   ├── oslo-privsep.nix
+│   ├── oslo-reports.nix
+│   ├── oslo-rootwrap.nix
+│   ├── oslo-serialization.nix
+│   ├── oslo-service.nix
+│   ├── oslo-upgradecheck.nix
+│   ├── oslo-utils.nix
+│   ├── oslo-versionedobjects.nix
+│   ├── oslo-vmware.nix
+│   ├── oslotest.nix
+│   ├── osprofiler.nix
+│   ├── ovs.nix
+│   ├── ovsdbapp.nix
+│   ├── pre-commit.nix
+│   ├── pycadf.nix
+│   ├── python-barbicanclient.nix
+│   ├── python-binary-memcached.nix
+│   ├── python-cinderclient.nix
+│   ├── python-designateclient.nix
+│   ├── python-keystoneclient.nix
+│   ├── python-neutronclient.nix
+│   ├── python-swiftclient.nix
+│   ├── reno.nix
+│   ├── sphinxcontrib-svg2pdfconverter.nix
+│   ├── sqlalchemy.nix
+│   ├── suds-community.nix
+│   ├── taskflow.nix
+│   ├── tooz.nix
+│   ├── uhashring.nix
+│   ├── xstatic-angular-bootstrap.nix
+│   ├── xstatic-angular-fileupload.nix
+│   ├── xstatic-angular-gettext.nix
+│   ├── xstatic-angular-lrdragndrop.nix
+│   ├── xstatic-angular-schema-form.nix
+│   ├── xstatic-angular.nix
+│   ├── xstatic-bootstrap-datepicker.nix
+│   ├── xstatic-bootstrap-scss.nix
+│   ├── xstatic-bootswatch.nix
+│   ├── xstatic-d3.nix
+│   ├── xstatic-font-awesome.nix
+│   ├── xstatic-hogan.nix
+│   ├── xstatic-jasmine.nix
+│   ├── xstatic-jquery-migrate.nix
+│   ├── xstatic-jquery-quicksearch.nix
+│   ├── xstatic-jquery-tablesorter.nix
+│   ├── xstatic-jsencrypt.nix
+│   ├── xstatic-mdi.nix
+│   ├── xstatic-objectpath.nix
+│   ├── xstatic-rickshaw.nix
+│   ├── xstatic-roboto-fontface.nix
+│   ├── xstatic-smart-table.nix
+│   ├── xstatic-spin.nix
+│   ├── xstatic-term-js.nix
+│   ├── xstatic-tv4.nix
+│   └── zake.nix
+├── result -> /nix/store/08shh09jky3mi9wy3dwfbzihsnigrv89-python3.12-nova-30.0.0
+├── tests
+│   ├── default.nix
+│   ├── openstack-default-setup.nix
+│   └── openstack-live-migration.nix
+└── tree
+
+12 directories, 132 files
