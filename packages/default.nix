@@ -347,6 +347,50 @@ let
         python3Packages
         ;
     };
+    manila = callPackage ./manila.nix {
+      inherit
+        castellan
+        cursive
+        futurist
+        keystoneauth1
+        keystonemiddleware
+        microversion-parse
+        openstacksdk
+        os-brick
+        os-resource-classes
+        os-traits
+        os-vif
+        oslo-cache
+        oslo-concurrency
+        oslo-config
+        oslo-context
+        oslo-db
+        oslo-i18n
+        oslo-limit
+        oslo-log
+        oslo-messaging
+        oslo-middleware
+        oslo-policy
+        oslo-privsep
+        oslo-reports
+        oslo-rootwrap
+        oslo-serialization
+        oslo-service
+        oslo-upgradecheck
+        oslo-utils
+        oslo-versionedobjects
+        oslo-vmware
+        osprofiler
+        os-win
+        oslotest
+        python-barbicanclient
+        python-glanceclient
+        python-neutronclient
+        sqlalchemy
+        taskflow
+        tooz
+        ;
+    };
     openstack-placement = callPackage ./openstack-placement.nix {
       inherit
         keystonemiddleware
