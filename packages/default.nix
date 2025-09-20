@@ -337,7 +337,6 @@ let
         oslo-vmware
         osprofiler
         os-win
-        oslotest
         python-barbicanclient
         python-cinderclient
         python-glanceclient
