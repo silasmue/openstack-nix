@@ -202,7 +202,7 @@ in
           cinder_env
           pkgs.lvm2
           pkgs.nvme-cli
-          pkgs.nvmetcli
+          pkgs.nvmet-cli
         ]
         ++ cfg.extraPkgs;
       environment.PYTHONPATH = "${cinder_env}/${pkgs.python3.sitePackages}";
